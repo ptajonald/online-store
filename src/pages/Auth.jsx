@@ -34,8 +34,6 @@ export default function Auth() {
     <div className="page">
       <div className="container">
         <div className="auth-container">
-          {user && <p>User Logged In: {user.email}</p>}
-          <button onClick={() => logOut()}>Log Out</button>
           <h1 className="page-title">
             {mode === "signup" ? "Sign Up" : "Log In"}
           </h1>
